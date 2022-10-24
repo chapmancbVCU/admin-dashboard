@@ -81,6 +81,22 @@
 }
 .buttons {
   border: 1px solid black;
+
+  /* Setup grid. */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 130px;
+  border-radius: 20px;
+
+  background-color: orange;
+  color: white;
+  font-weight: bold;
 }
 
 .sidebar {
