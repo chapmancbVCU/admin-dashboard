@@ -4,6 +4,19 @@
   Date Created: October 21, 2022
    Description: CSS Stylesheet for Admin Dashboard project.
 ******************************************************************************/
+@font-face {
+  font-family: "JC3Heavy";
+  src: url("../fonts/JustCause3EnglishHeavy.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "JC3Medium";
+  src: url("../fonts/JustCause3EnglishMedium.otf") format("opentype");
+}
+
+body {
+  font-family: "JC3Medium", sans-serif;
+}
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -65,6 +78,21 @@
   grid-template-rows: 1fr 1fr;
 }
 
+.menu ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+.settings ul {
+  list-style-type: none;
+}
+
+ul {
+  font-size: 2em;
+}
+li {
+  margin-bottom: 10px;
+}
 .profile-pic {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
