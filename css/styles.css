@@ -7,7 +7,7 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 100px 600px;
+  grid-template-rows: 100px 6fr;
 }
 
 .header {
@@ -111,7 +111,7 @@ button {
 
   /* content is also a grid container. */
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
   grid-row: 1fr 1fr;
 }
 
@@ -121,6 +121,20 @@ button {
   grid-row: 1 / 3;
 }
 
+.cards {
+  margin: 15px;
+  /* Setup grid. */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  gap: 10px;
+}
+
+.cards .card {
+  border: 1px solid black;
+  border-radius: 10px;
+  
+  height: 250px;
+}
 .announcements {
   border: 1px solid black;
   grid-column: 2 / -1;
