@@ -21,7 +21,7 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 100px 6fr;
+  grid-template-rows: 130px 6fr;
 }
 
 .header {
@@ -35,8 +35,8 @@
 }
 
 .search {
-  border: 1px solid black;
-
+  margin-top: 10px;
+  margin-left: 20px;
   /* search bar is a grid container. */
   display: grid;
   grid-template-columns: 50px 5fr;
@@ -81,7 +81,12 @@
   grid-template-rows: 1fr 1fr;
 }
 
-
+.welcome img {
+  margin-left: 25px;
+  margin-top: 15px;
+  border-radius: 50px;
+  height: 50px;
+}
 
 ul {
   font-size: 2em;
@@ -115,6 +120,7 @@ li {
 button {
   margin-top: 10px;
   margin-bottom: 10px;
+  height: 30px;
   width: 130px;
   border-radius: 20px;
 
