@@ -53,23 +53,23 @@
 }
 
 .notifications {
-  border: 1px solid black;
+  margin-top: 15px;
   display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-columns: 2fr 40px 2fr;
 }
 
 .bell-icon {
-  border: 1px solid black;
-  text-align: right;
+  justify-self: right;
 }
 
 .small-profile-pic {
-  border: 1px solid black;
-  text-align: center;
+  border-radius: 50px;
+  height: 20px;
+  justify-self: center;
 }
 
 .short-profile-name {
-  border: 1px solid black;
+  font-family: "JC3Medium", sans-serif;
 }
 
 .welcome {
