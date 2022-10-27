@@ -185,23 +185,23 @@ li {
 
 .content {
   background-color: rgb(238, 238, 238);
-  border: 1px solid black;
   grid-column: 2 / -1;
   grid-row: 2 / -1;
 
   /* content is also a grid container. */
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-row: 1fr 1fr;
 }
 
+.achievements {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
 .achievements h3,
 .announcements h3 {
   margin-top: 10px;
   margin-left: 10px;
   font-family: "JC3Heavy", sans-serif;
-  grid-column: 1 / 2;
-  grid-row: 1 / 3;
 }
 
 .cards {
@@ -244,18 +244,35 @@ li {
 }
 
 .announcements {
-  border: 1px solid black;
   grid-column: 2 / -1;
   grid-row: 1 / 2;
 }
 
-.announcements .announcement-quotes {
+.announcements .announcement-quotes,
+.trending .trending-info {
   background-color: white;
   border-radius: 10px;
   margin: 15px;
 }
-.trending {
-  border: 1px solid black;
-  grid-column: 2 / -1;
-  grid-row: 2 / 3;
+
+.quote h4 {
+  font-family: "JC3Heavy", sans-serif;
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+
+.quote p {
+  font-family: "JC3Medium", sans-serif;
+  padding-bottom: 15px;
+}
+
+.quote h4,
+.quote p {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+hr {
+  width: 80%;
+  margin: auto;
 }
