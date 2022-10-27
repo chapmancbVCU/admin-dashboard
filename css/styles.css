@@ -25,7 +25,6 @@
 }
 
 .header {
-  border: 1px solid black;
   grid-column: 2 / -1;
 
   /* header is a grid container. */
@@ -77,8 +76,6 @@
 }
 
 .welcome {
-  border: 1px solid black;
-
   /* Setup grid. */
   display: grid;
   grid-template-columns: 100px 5fr;
@@ -113,8 +110,6 @@
   font-size: larger;
 }
 .buttons {
-  border: 1px solid black;
-
   /* Setup grid. */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -130,6 +125,8 @@ button {
 
   background-color: orange;
   color: white;
+
+  font-family: "JC3Medium", sans-serif;
   font-weight: bold;
 }
 
